@@ -1,3 +1,8 @@
+body{
+    text-align: center;
+    background-color: #0B2839;
+}
+
 .invitacion{
     position: relative; 
     width: 100%;
@@ -54,12 +59,17 @@
 .numero {
   font-size: 3em;
   font-weight: bold;
+  color: #aaaf;
 }
 
 .texto {
   font-size: 0.8em;
   text-transform: uppercase;
-  color: #aaa;
+  color: #aaaf;
+}
+
+.gform{
+    background-color: orange;
 }
 
 .form{
