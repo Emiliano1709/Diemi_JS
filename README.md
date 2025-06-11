@@ -11,3 +11,6 @@ El maquetado del proyecto incluye:
         = Mapas interactivos de Google Maps
     - Comunicación con una hoja de cálculo de Google usando Apps Script
     - Audio insertado directamente para una experiencia directa con el usuario
+
+= V.1.0.1 =
+Se agrega la función de scroll para dispositivos moviles 
