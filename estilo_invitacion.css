@@ -61,3 +61,14 @@
   text-transform: uppercase;
   color: #aaa;
 }
+
+.form{
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
