@@ -1,0 +1,21 @@
+    <!--
+    <div class="invitacion">
+        
+        <iframe class="frame-invitacion"
+            src="https://www.canva.com/design/DAGp0ojamT0/po2hPZrMdhfGEHm9EOtOkA/view?embed" 
+            loading="lazy"
+            allowfullscreen="allowfullscreen" 
+            allow="fullscreen">
+        </iframe>
+        
+    </div>
+    -->
+    <!--
+    <h2>Esto es una prueba de formulario</h2>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <button type="submit">Guardar</button>
+    </form>
+    <p id="mensaje"></p>
+    <script src="envio.js"> </script>
+    -->
