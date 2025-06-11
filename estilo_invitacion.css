@@ -9,17 +9,6 @@
     border-radius: 8px; will-change: transform;
 }
 
-.botonIn{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
-}
-
-.cancion{
-    color: orange;
-}
-
 .frame-invitacion{
     position: absolute; 
     width: 100%; 
@@ -32,4 +21,15 @@
     overflow: auto;
     touch-action: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+.botonIn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.cancion{
+    color: orange;
 }
