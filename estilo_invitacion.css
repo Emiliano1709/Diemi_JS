@@ -9,9 +9,12 @@ body{
     display: block;
 }
 
-#contador {
-  font-size: 2em;
-  margin-top: 1em;
+h2{
+    color: #aaaf;
+}
+
+h1{
+    color: #aaaf;
 }
 
 #contador {

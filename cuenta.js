@@ -5,7 +5,7 @@ const actualizaContador = () => {
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia < 0) {
-        document.getElementById("contador").innerHTML = "<h2>¡Ya empezó el evento!</h2>";
+        document.getElementById("contador").innerHTML = "<h1>¡Es hoooooooooooy!</h1>";
         clearInterval(timer);
         return;
     }
@@ -22,4 +22,4 @@ const actualizaContador = () => {
 };
 
 const timer = setInterval(actualizaContador, 1000);
-actualizaContador(); // llamar una vez al inicio
+actualizaContador(); // llamar una vez al inicio de todo xd
