@@ -30,4 +30,6 @@
     padding: 0;
     margin: 0;
     overflow: auto;
+    touch-action: auto;
+    -webkit-overflow-scrolling: touch;
 }
