@@ -40,3 +40,24 @@
     height: auto;
     display: block;
 }
+
+#contador {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.unidad {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.numero {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #aaa;
+}
