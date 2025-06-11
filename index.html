@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enviar nombre</title>
+    <link rel="stylesheet" href="estilo_invitacion.css">
+</head>
+<body>
+    <div class="cancion">
+        <audio controls autoplay loop>
+            <source src="luces.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <h2>Esto es una prueba de formulario</h2>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="envio.js"> </script>
+
+    <div class="invitacion">
+        <iframe loading="lazy" 
+            style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+            src="https://www.canva.com/design/DAGp0ojamT0/po2hPZrMdhfGEHm9EOtOkA/view?embed" 
+            allowfullscreen="allowfullscreen" 
+            allow="fullscreen">
+        </iframe>
+
+        <div class="botonIn">
+            <p>IGNOREN ESTE BOTON</p>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button onclick="enviarNombre()">Guardar</button>
+        </div>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.263839748754!2d-99.00131812501748!3d19.270889281974263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce1cb90b758821%3A0xd9b9c1667316f793!2sSal%C3%B3n%20de%20Fiestas%20y%20Acu%C3%A1tica%20Los%20Pinos!5e0!3m2!1ses!2smx!4v1749614966752!5m2!1ses!2smx"
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</body>
+</html>
