@@ -14,3 +14,6 @@ El maquetado del proyecto incluye:
 
 = V.1.0.1 =
 Se agrega la función de scroll para dispositivos moviles 
+
+= V.1.0.2 =
+En la versión anterior no funcionó el scroll
