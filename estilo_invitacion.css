@@ -9,12 +9,43 @@ body{
     display: block;
 }
 
+.mapas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.columna {
+  flex: 1; 
+  max-width:48%;
+}
+
+.cajaMagica{
+  position: relative;
+  width: 100vw;
+  max-width: 600px;
+}
+
+.cajaMagica img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.cajaMagica iframe {
+  position: absolute;
+  top: 61%;
+  left: 20%;
+  border: none;
+}
+
 h2{
-    color: #aaaf;
+    color: #ffffff;
 }
 
 h1{
-    color: #aaaf;
+    color: #f5f5dc;
 }
 
 #contador {
@@ -30,27 +61,33 @@ h1{
 .numero {
   font-size: 3em;
   font-weight: bold;
-  color: #aaaf;
+  color: #ffffff;
 }
 
 .texto {
   font-size: 0.8em;
   text-transform: uppercase;
-  color: #aaaf;
+  color: #ffffff;
 }
 
 .gform{
     background-color: orange;
 }
 
+.boton_form{
+  height: auto;
+  width: auto;
+}
+
 .form{
-    display: inline-block;
-    background-color: #007BFF;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 16px;
-    font-family: sans-serif;
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: sans-serif;
+  height: auto;
 }
 
