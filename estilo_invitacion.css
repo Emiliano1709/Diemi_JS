@@ -3,24 +3,6 @@ body{
     background-color: #0B2839;
 }
 
-.imagen {
-    width: 100vw;
-    height: auto;
-    display: block;
-}
-
-.mapas {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.columna {
-  flex: 1; 
-  max-width:48%;
-}
-
 .cajaMagica{
   position: relative;
   width: 100vw;
@@ -33,19 +15,30 @@ body{
   display: block;
 }
 
-.cajaMagica iframe {
+.cajaMapas {
   position: absolute;
-  top: 61%;
-  left: 20%;
-  border: none;
+  top: 51%; /* distancia desde la parte superior */
+  left: 40%; /* distancia desde la izquierda */
+  width: 80%; /* ancho del grupo */
+  display: flex;
+  justify-content: space-between;
+  gap: 50%;
 }
+
+.grupo-iframes iframe {
+  width: 48%;
+  height: 200px;
+  border: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
 
 h2{
     color: #ffffff;
 }
 
 h1{
-    color: #f5f5dc;
+    color: #ffffff;
 }
 
 #contador {
@@ -68,10 +61,6 @@ h1{
   font-size: 0.8em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.gform{
-    background-color: orange;
 }
 
 .boton_form{
