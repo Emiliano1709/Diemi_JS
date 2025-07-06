@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-color: #0B2839;
+}
+
+.cajaMagica{
+  position: relative;
+  width: 100vw;
+  max-width: 600px;
+}
+
+.cajaMagica img {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.cajaMapas {
+  position: absolute;
+  top: 51%; /* distancia desde la parte superior */
+  left: 40%; /* distancia desde la izquierda */
+  width: 80%; /* ancho del grupo */
+  display: flex;
+  justify-content: space-between;
+  gap: 85%;
+}
+
+.cajaMapass iframe {
+  border: none;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+
+h2{
+    color: #ffffff;
+}
+
+h1{
+    color: #ffffff;
+}
+
+#contador {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.unidad {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.numero {
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.texto {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.boton_form{
+  height: auto;
+  width: auto;
+}
+
+.boton_form form{
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  display: inline-block;
+  background-color: #E28000;
+  color: #FFFFFF;
+  padding: 18px 38px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: Verdana;
+  height: auto;
+}
+
