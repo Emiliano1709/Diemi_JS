@@ -3,6 +3,12 @@ body {
     background-color: #0B2839;
 }
 
+.aviso{
+    font-size: xx-large;
+    border-top: 1px solid #E28000;
+    border-bottom: 1px solid #E28000;
+}
+
 
 
 
@@ -62,7 +68,7 @@ body {
 
 .boton_form {
     position: absolute;
-    bottom: 4%;
+    bottom: 3%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
@@ -108,4 +114,20 @@ h1, h2, p{
     font-size: 0.5em;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.footer {
+    z-index: 1;
+    position: relative;
+    background-color: #0B2839;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+    border-top: 1px solid #ffffff33; /* línea opcional para separar */
+}
+
+.copy, .credito{
+    font-family: 'Cinzel';
 }
