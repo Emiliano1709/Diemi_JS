@@ -10,11 +10,18 @@
     <link rel="stylesheet" href="estilo_nuevo.css">
 </head>
 <body>
-    <h1>Esto es una prueba. No es la invitación real</h1>
-    <audio controls autoplay loop>
-        <source src="luces.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio.
-    </audio>
+    <h1>Toca la flor para escuchar nuestra canción</h1>
+
+    <div class="reproductor-contenedor">
+        <button id="play-boton">
+            <img src="play.png" alt="Reproducir" id="icono-play">
+        </button>
+        <audio id="audio" autoplay loop>
+            <source src="luces.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio.
+        </audio>
+    </div>
+    <script src="reproducir.js"></script>
 
     <div class="cajaMagica">
                         
