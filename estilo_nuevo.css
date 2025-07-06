@@ -50,7 +50,7 @@ body {
     padding: 24px 36px;
     text-decoration: none;
     border-radius: 12px;
-    font-size: 50px;
+    font-size: 40px;
     font-family: Verdana;
 }
 
@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .texto {
-    font-size: 0.7em;
+    font-size: 0.5em;
     text-transform: uppercase;
     color: #ffffff;
 }
