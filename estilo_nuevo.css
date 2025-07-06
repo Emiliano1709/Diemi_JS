@@ -6,12 +6,11 @@ body {
 
 
 
-
 .reproductor-contenedor {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px; /* o colócalo sobre una imagen si quieres */
+  margin-top: 10px; /* o colócalo sobre una imagen si quieres */
 }
 
 #play-boton {
@@ -22,7 +21,7 @@ body {
 }
 
 #icono-play {
-  width: 120px; /* ajusta según tu diseño */
+  width: 180px; /* ajusta según tu diseño */
   height: auto;
 }
 
@@ -77,30 +76,35 @@ body {
     text-decoration: none;
     border-radius: 12px;
     font-size: 40px;
-    font-family: Verdana;
+    font-family: 'Cinzel';
 }
 
-h1, h2 {
+h1, h2, p {
     color: #ffffff;
+    font-family: 'Edu NSW ACT Cursive';
 }
 
 #contador {
+    font-family: 'Edu NSW ACT Cursive';
     font-size: 2em;
     margin-top: 1em;
 }
 
 .unidad {
+    font-family: 'Edu NSW ACT Cursive';
     display: inline-block;
     margin: 0 10px;
 }
 
 .numero {
+    font-family: 'Cinzel';
     font-size: 3em;
     font-weight: bold;
     color: #ffffff;
 }
 
 .texto {
+    font-family: 'Cinzel';
     font-size: 0.5em;
     text-transform: uppercase;
     color: #ffffff;
