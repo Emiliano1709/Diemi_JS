@@ -1,4 +1,4 @@
-const fechaObjetivo = new Date("2025-10-04T12:00:00").getTime();
+const fechaObjetivo = new Date("2025-10-04T11:00:00").getTime();
 
 const actualizaContador = () => {
     const ahora = new Date().getTime();
