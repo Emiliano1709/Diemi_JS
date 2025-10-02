@@ -5,7 +5,8 @@ const actualizaContador = () => {
     const diferencia = fechaObjetivo - ahora;
 
     if (diferencia < 0) {
-        document.getElementById("contador").innerHTML = "<h1>¡Es hoooooooooooy!</h1>";
+        document.getElementById("anuncio").innerHTML = "<p>Es de nuestro agrado informar que...</p>";
+        document.getElementById("contador").innerHTML = "<h1>¡Nos estamos casandoooo!</h1>";
         clearInterval(timer);
         return;
     }
