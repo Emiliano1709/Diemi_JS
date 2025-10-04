@@ -7,10 +7,10 @@
   boton.addEventListener('click', () => {
     if (estaReproduciendo) {
       audio.pause();
-      icono.src = "multi/play.PNG";
+      icono.src = "multi/play.png";
     } else {
       audio.play();
-      icono.src = "multi/pausa.PNG";
+      icono.src = "multi/pausa.png";
     }
     estaReproduciendo = !estaReproduciendo;
   });
