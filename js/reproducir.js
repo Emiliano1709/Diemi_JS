@@ -1,13 +1,3 @@
-/*
-const boton = document.getElementById('play-boton');
-const audio = document.getElementById('audio');
-
-boton.addEventListener('click', () => {
-  audio.play();
-  boton.disabled = true; // Desactiva el botón después de hacer clic
-});
-*/
-
   const audio = document.getElementById('audio');
   const boton = document.getElementById('play-boton');
   const icono = document.getElementById('icono-play');
@@ -17,10 +7,10 @@ boton.addEventListener('click', () => {
   boton.addEventListener('click', () => {
     if (estaReproduciendo) {
       audio.pause();
-      icono.src = "play.PNG";
+      icono.src = "multi/play.PNG";
     } else {
       audio.play();
-      icono.src = "pausa.PNG";
+      icono.src = "multi/pausa.PNG";
     }
     estaReproduciendo = !estaReproduciendo;
   });
