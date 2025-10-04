@@ -1,5 +1,5 @@
 const fechaObjetivo = new Date("2025-10-04T11:00:00").getTime();
-const fechaBoda = new Date("2025-10-04T02:30:00").getTime();
+const fechaBoda = new Date("2025-10-04T13:30:00").getTime();
 const fechaCasados = new Date("2025-10-04T20:00:00").getTime();
 
 const actualizaContador = () => {
