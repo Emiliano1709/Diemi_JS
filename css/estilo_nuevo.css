@@ -85,9 +85,15 @@ body {
     font-family: 'Cinzel';
 }
 
-h1, h2, p{
+h1, h2{
     color: #ffffff;
     font-family: 'Edu NSW ACT Cursive';
+}
+
+p{
+    color: #ffffff;
+    font-family: 'Cinzel';
+    font-size: 0.7em;
 }
 
 #contador {
