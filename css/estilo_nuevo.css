@@ -93,10 +93,11 @@ h1, h2{
 p{
     color: #ffffff;
     font-family: 'Cinzel';
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 #contador {
+    color: #ffffff;
     font-family: 'Edu NSW ACT Cursive';
     font-size: 2em;
     margin-top: 1em;
