@@ -4,7 +4,7 @@ body {
 }
 
 .aviso{
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     border-top: 1px solid #E28000;
     border-bottom: 1px solid #E28000;
 }
@@ -30,8 +30,6 @@ body {
   width: 180px; /* ajusta según tu diseño */
   height: auto;
 }
-
-
 
 
 .cajaMagica {
@@ -93,7 +91,7 @@ h1, h2{
 p{
     color: #ffffff;
     font-family: 'Cinzel';
-    font-size: 0.9em;
+    /*font-size: 0.9em;*/
 }
 
 #contador {
@@ -130,7 +128,6 @@ p{
     color: #ffffff;
     text-align: center;
     padding: 20px;
-    
     margin-top: 40px;
     border-top: 1px solid #ffffff33; /* línea opcional para separar */
 }
